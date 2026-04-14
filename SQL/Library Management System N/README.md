@@ -584,7 +584,7 @@ This project demonstrates the application of SQL skills in creating and managing
 1. **Set Up the Database**: Execute the SQL scripts in the `database_setup.sql` file to create and populate the database.
 2. **Run the Queries**: Use the SQL queries in the `analysis_queries.sql` file to perform the analysis.
 3. **Explore and Modify**: Customize the queries as needed to explore different aspects of the data or answer additional questions.
-
+ ```
 ---
 
 ## 👨‍💻 Author – Prajwal Pawar
