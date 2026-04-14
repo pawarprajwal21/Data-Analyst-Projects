@@ -300,10 +300,10 @@ BEGIN
         SET status = 'no'
         WHERE isbn = p_issued_book_isbn;
 
-        SELECT CONCAT('✅ Book issued successfully: ', p_issued_book_isbn) AS message;
+        SELECT CONCAT('Book issued successfully: ', p_issued_book_isbn) AS message;
 
     ELSE
-        SELECT CONCAT('❌ Book not available: ', p_issued_book_isbn) AS message;
+        SELECT CONCAT('Book not available: ', p_issued_book_isbn) AS message;
     END IF;
 
 END$$
